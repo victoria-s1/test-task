@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        form, form *{
+            display: block;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <title>form.html</title>
+</head>
+<body>
+    <form action="" method="">
+     <label for="name">Name <input type="text" name="Name" placeholder="Name" id="name"></label>
+        <label for="surname">Surname<input type="text" name="surname" placeholder="Surname" id="surname"></label>
+        <label for="position">
+            Your Position
+            <select name="position"  id="position">
+             <option value="" disabled selected>Select your position</option>
+            <option value="driver">Водитель</option>
+            <option value="cook">Кашевар</option>
+            <option value="warrior">Охранник</option>
+            </select>
+        </label>
+        <label for="self">
+            Describe yourself
+            <textarea name="discription" placeholder="Write your description here" id="self"></textarea>
+        </label>
+        <input type="submit" name="submit" value="submit">
+    </form>
+</body>
+</html>
