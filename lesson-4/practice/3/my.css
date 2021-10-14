@@ -1,0 +1,9 @@
+
+.container::before, .container::after {
+   content: url("img/thumbnail.png");
+   display: flex;
+   justify-content: center;
+   }
+h1{
+   text-align: center;
+}
