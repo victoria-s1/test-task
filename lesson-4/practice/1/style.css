@@ -1,0 +1,21 @@
+a:hover.background{
+    background: gainsboro ;
+}
+
+a:hover.color{
+    color: red;
+}
+
+a:hover.border{
+border-bottom:2px solid red;
+}
+a:hover.font-size{
+font-size: larger;
+}
+a:hover.font-weight{
+font-weight: bold;
+}
+a:hover.border-pseudo{
+    border-bottom:3px solid red;
+    border-top:3px solid red;
+}
