@@ -1,0 +1,21 @@
+.flex-container{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: baseline;
+}
+.flex-container div{
+    padding: 20px;
+    width: 10%;
+    background: darkorange;
+    margin-right: 10px;
+    font-size: 28px;
+}
+
+.flex-container div:nth-child(odd){
+    font-size: 12px;
+}
+.flex-container div:nth-child(5){
+    font-size: 8px;
+}
+.flex-container div:nth-child(3){font-size: 22px}
+.flex-container div:nth-child(8){font-size: 42px}
