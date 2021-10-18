@@ -1,0 +1,32 @@
+div.child{
+    width: 150px;
+    height: 100px;
+    background:gainsboro ;
+    font-size:1em ;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+div:first-child{
+    background: red ;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+div:nth-child(n+6){
+    background: blue;
+}
+div:last-child {
+    background: green;
+    margin-left: 50px;
+}
+
+div:nth-child(10){
+ font-size:34px;
+}
+div:nth-child(17){
+    font-size:34px;}
+
+
+div:nth-child(3n):hover {
+border-bottom: 3px dashed green;
+
+}
