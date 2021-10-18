@@ -1,0 +1,6 @@
+li:nth-child(n+1)::after{
+content: ";";
+}
+li:last-child::after{
+    content: ".";
+}
