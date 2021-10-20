@@ -1,0 +1,35 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    height: 600px;
+    line-height: 50px;
+    width: 100vw;
+
+
+}
+.flex-container div{
+    text-align: center;
+    width: 100px;
+    height: 400px;
+    background: aquamarine;
+    margin-right: 10px;
+    width: 100vw;
+    margin-left: calc(50%-50vw);
+
+}
+.flex-container div:first-child, .flex-container div:nth-child(5){
+    align-self: end;
+}
+.flex-container div:nth-child(5){
+    height: 200px;
+    background: red;
+}
+.flex-container div:nth-child(3){
+    align-self: center;
+    height: 100px;
+    background: darkkhaki;
+}
+.flex-container div:nth-child(7){
+    height: 100%;
+    background: violet;

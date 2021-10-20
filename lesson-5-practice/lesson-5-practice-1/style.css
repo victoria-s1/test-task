@@ -1,0 +1,19 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    line-height: 100px;
+}
+.flex-container div{
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    background: pink;
+    margin: 10px;
+}
+div:nth-child(2){
+order: -2;
+}
+div:nth-child(4){
+    order: -1;
+}

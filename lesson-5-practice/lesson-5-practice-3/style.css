@@ -1,0 +1,19 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    width: 900px
+}
+.flex-container div{
+    flex-basis:  250px;
+    height: 150px;
+    margin: 5px;
+    background: orange;
+
+}
+.flex-container div:nth-child(3){
+    flex-grow: 5;
+}
+.flex-container div:nth-child(7){
+     flex-grow: 10;
+ }
