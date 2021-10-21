@@ -1,5 +1,29 @@
+
 .grid-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: repeat(2, 100px)
+    grid-template-rows: repeat(3, 100px);
+    grid-gap: 20px;
+}
+.grid-container div{
+    background: aqua;
+}
+.grid-container div:first-child{
+    background: red;
+}
+.grid-container div:last-child{
+    background: crimson;
+}
+.grid-container div:nth-child(2){
+    background: #FFEBC9;
+}
+.grid-container div:nth-child(3){
+    background: #FFF5E4;
+}
+.grid-container div:nth-child(4){
+    grid-column:1/4 ;
+    grid-row:2/3 ;
+}
+.grid-container div:nth-child(6){
+    background: aquamarine;
 }
