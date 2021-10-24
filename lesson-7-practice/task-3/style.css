@@ -1,0 +1,20 @@
+body{
+    display: flex;
+    flex-direction: row;
+}
+.chart__bigger{
+    background: conic-gradient( sandybrown 20%, saddlebrown 20%,saddlebrown 50%, sandybrown 50%);
+                /*linear-gradient( 60deg, sandybrown 50%, saddlebrown 70%);*/
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    margin: 40px;
+}
+.chart__smaller{
+    background: conic-gradient( green 15%, saddlebrown 15%,saddlebrown 50%, sandybrown 50%);
+    /*linear-gradient( 60deg, sandybrown 50%, saddlebrown 70%);*/
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    margin: 40px;
+}
