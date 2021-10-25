@@ -1,0 +1,21 @@
+.grid-container{
+    display: grid;
+    grid-template-rows:150px 1fr;
+    grid-template-columns: 150px 1fr;
+    grid-template-areas: "aside header"
+    "aside main";
+    height: 100vh;
+}
+
+.header{
+    grid-area: header;
+    background: burlywood;
+}
+.nav{
+    grid-area: aside;
+    background: #FFEBC9;
+}
+.main{
+    grid-area: main;
+    background: aqua;
+}

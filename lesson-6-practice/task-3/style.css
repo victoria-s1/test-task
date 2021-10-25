@@ -1,0 +1,81 @@
+.grid-container{
+    display: grid;
+    background: aqua;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "four five six"
+                        "seven eight nine";
+    height:100vh;
+
+}
+.four{
+    grid-area:four;
+    background: aquamarine;
+}
+.five{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr); ;
+    grid-area:five;
+    background: darkblue;
+    grid-template-areas: "five_one five_two"
+                    "five_three five_four";
+
+}
+.six{
+     grid-area:six;
+    background: darkseagreen;
+ }
+.seven{
+    display: grid;
+    grid-template-rows: 1fr ;
+    grid-template-columns: 1fr 1fr;
+    grid-area:seven;
+    background: darkgrey;
+    grid-template-areas: "seven_one seven_two";
+  }
+.eight{
+       grid-area:eight;
+    background: cornsilk;
+   }
+.nine{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: 1fr;
+    grid-template-areas: "nine_one"
+                         "nine_two";
+    grid-area:nine;
+    background: beige;
+    }
+.five_one{
+    grid-area: five_one ;
+    background: coral;
+}
+.five_two{
+    grid-area:five_two ;
+    background: azure ;
+}
+.five_three{
+    grid-area: five_three;
+    background: brown;
+}
+.five_four{
+    grid-area: five_four;
+    background: cyan;
+}
+.seven_one{
+    grid-area: seven_one;
+    background: dimgray;
+}
+.seven_two{
+    grid-area: seven_two;
+    background: aliceblue;
+}
+.nine_one{
+    grid-area: nine_one;
+    background: lightgoldenrodyellow;
+}
+.nine_two{
+    grid-area: nine_two;
+    background: darkviolet;
+}
