@@ -482,6 +482,123 @@ body {
     padding-left: 32px;
     padding-bottom: 1px;
 }
+.faq{
+    width: 1440px;
+    margin: auto;
+}
+.faq .fcku{
+    width: fit-content;
+    margin-bottom: 38px;
+    padding: 2px 8px;
+    font-family: 'Teko', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #333333;
+    background-color: rgba(245, 166, 35, .2);
+    mix-blend-mode: normal;
+    border-radius: 3px;
+    margin: 65px auto 15px;
+}
+.faq h3{
+    font-family: 'Teko', Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 64px;
+    text-align: center;
+    color: #333333;
+}
+.faq p{
+    margin: 16px auto 47px;
+    width: 470px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: rgba(51, 51, 51, 0.501557)
+}
+.rectangles{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 770px;
+    height: 432px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 139px;
+}
+.rectangles h5{
+    font-family: 'Teko', Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    align-content: center;
+    margin-top: 26px;
+    margin-left: 32px;
+    margin-right: auto;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+}
+.rectangle__menu{
+    display: flex;
+    align-items: start;
+    width: 770px;
+    height: 80px;
+    margin-bottom: 32px;
+    border-left:4px solid ;
+    border-image-source: linear-gradient(135deg, #FFEBC9 0%, #F5A623 100%);
+    border-image-slice: 1;
+    box-shadow: 10px 10px 40px rgba(54, 33, 0, 0.102129);
+    border-radius: 3px;
+}
+
+
+.rectangle__menu img{
+    width: 12px;
+    margin-top: 36px;
+    margin-left: auto;
+    margin-right: 34px;
+    transform: rotate(270deg);
+}
+.rectangle__menu:nth-child(1){
+    position: absolute;
+    height: 208px;
+    top: 0;
+    margin-bottom: 32px;
+}
+.rectangle__menu:first-child p{
+    height: 103px;
+    width: 706px;
+    position: absolute;
+    top: 75px;
+    left: 32px;
+}
+.rectangle__menu:first-child img{
+    transform: rotate(0deg);
+}
+.rectangle__menu:nth-child(2){
+    position: absolute;
+    top: 240px;
+}
+.rectangle__menu:nth-child(3){
+    position: absolute;
+    top: 352px;
+    margin-bottom: 0;
+
+}
+.rectangle__menu:hover{
+    height: 208px;
+}
+.rectangle__menu img:hover{
+    transform: rotate(0deg);
+}
 
 .contact__us {
     display: flex;
