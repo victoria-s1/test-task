@@ -1,0 +1,32 @@
+.bounce{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background: red;
+    position: absolute;
+    bottom: 0;
+}
+.bounce{
+    animation: offspring;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes offspring {
+    0%{
+        transform: translateY(0);
+    }
+    25%{
+        transform: translateY(-200px);
+    }
+    50%{
+        transform: translateY(0);
+    }
+    75%{
+        transform: translateY(-400px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+
+}
