@@ -1,0 +1,19 @@
+.show-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 200px;
+    background: rosybrown;
+    color: white;
+    font-size: 2em;
+}
+.hidden-content{
+    font-size: 2em;
+    color: red;
+    opacity: 0;
+    transition: all 1s ease-in-out;
+}
+.show-button:hover + .hidden-content{
+    opacity: 1;
+}

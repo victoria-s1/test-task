@@ -1,0 +1,84 @@
+
+.btn_one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 200px;
+    background: #DADADA;
+    font-size: 2em;
+    margin-bottom: 20px;
+    /*transition: all 1s ease-in-out ;*/
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+}
+.btn_one:hover{
+    background: #F5A623;
+}
+.btn_two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 200px;
+    background: #DADADA;
+    font-size: 2em;
+    margin-bottom: 20px;
+    transition-timing-function: ease-in;
+    transition-duration: 0.5s;
+}
+.btn_two:hover{
+    background: green;
+    border-radius: 15px;
+    color: #DADADA;
+}
+.btn_three{
+    box-sizing: border-box;
+    position: relative;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 200px;
+    background: #DADADA;
+    font-size: 2em;
+    margin-bottom: 20px;
+    transition: all .5s ease-out;
+}
+.btn_three:hover{
+    background: khaki;
+    font-size: 3em;
+    height: 150px;
+    width: 250px;
+}
+.btn_four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 200px;
+    background: #DADADA;
+    font-size: 2em;
+    margin-bottom: 20px;
+    transition:all .5s;
+}
+.btn_four:hover{
+    transform: skew(5deg, 5deg) scale(1.1);
+    background: darkviolet;
+    color: white;
+}
+.btn_five{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 200px;
+    background: #DADADA;
+    font-size: 2em;
+    margin-bottom: 20px;
+    transition: all .5s cubic-bezier(1,1.55,0,.73);
+}
+.btn_five:hover{
+    box-shadow:0 0 50px cyan ;
+}
